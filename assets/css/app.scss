@@ -40,8 +40,8 @@
 }
 
 .card {
-  width: 280px;
-  height: 280px;
+  width: 500px;
+  height: 500px;
   perspective: 500px;
 }
 
@@ -61,11 +61,13 @@
 
 .front, .back {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
   padding: 8%;
-  background: white;
-  color: #03446A;
+  font-size: 2em;
   border-radius: 5px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -77,3 +79,54 @@
   transform: rotateY( 180deg );
   text-align: center;
 }
+
+.makeup .hll {background-color: #ffffcc}
+
+.makeup {background-color: #ffffff}
+
+.makeup .unselectable {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+.makeup .c {color: #008000; } /* :comment */
+.makeup .c1 {color: #008000; } /* :comment_single */
+.makeup .ch {color: #008000; } /* :comment_hashbang */
+.makeup .cm {color: #008000; } /* :comment_multiline */
+.makeup .cp {color: #0000ff; } /* :comment_preproc */
+.makeup .cpf {color: #0000ff; } /* :comment_preproc_file */
+.makeup .cs {color: #008000; } /* :comment_special */
+.makeup .dl {color: #a31515; } /* :string_delimiter */
+.makeup .err {border: #FF0000; } /* :error */
+.makeup .ge {font-style: italic; } /* :generic_emph */
+.makeup .gh {font-weight: bold; } /* :generic_heading */
+.makeup .gp {font-weight: bold; } /* :generic_prompt */
+.makeup .gs {font-weight: bold; } /* :generic_strong */
+.makeup .gu {font-weight: bold; } /* :generic_subheading */
+.makeup .k {color: #0000ff; } /* :keyword */
+.makeup .kc {color: #0000ff; } /* :keyword_constant */
+.makeup .kd {color: #0000ff; } /* :keyword_declaration */
+.makeup .kn {color: #0000ff; } /* :keyword_namespace */
+.makeup .kp {color: #0000ff; } /* :keyword_pseudo */
+.makeup .kr {color: #0000ff; } /* :keyword_reserved */
+.makeup .kt {color: #2b91af; } /* :keyword_type */
+.makeup .nc {color: #2b91af; } /* :name_class */
+.makeup .ow {color: #0000ff; } /* :operator_word */
+.makeup .s {color: #a31515; } /* :string */
+.makeup .s1 {color: #a31515; } /* :string_single */
+.makeup .s2 {color: #a31515; } /* :string_double */
+.makeup .sa {color: #a31515; } /* :string_affix */
+.makeup .sb {color: #a31515; } /* :string_backtick */
+.makeup .sc {color: #a31515; } /* :string_char */
+.makeup .sd {color: #a31515; } /* :string_doc */
+.makeup .se {color: #a31515; } /* :string_escape */
+.makeup .sh {color: #a31515; } /* :string_heredoc */
+.makeup .si {color: #a31515; } /* :string_interpol */
+.makeup .sr {color: #a31515; } /* :string_regex */
+.makeup .ss {color: #a31515; } /* :string_symbol */
+.makeup .sx {color: #a31515; } /* :string_other */
+.makeup .sx {color: #a31515; } /* :string_sigil */
