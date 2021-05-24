@@ -8,3 +8,20 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# Accounts for a package on the front-end to enable autocomplete for Jest in VSCode
+node_modules
+/yarn.lock
+/package.json
+/priv/nodejs/*/node_modules/.yarn-integrity
+
+# Ide files
+/.vscode
+
+# Ignore tool versions file
+.tool-versions
+
+/assets/yarn-error.log
+
+.DS_Store
+**/*/.DS_Store

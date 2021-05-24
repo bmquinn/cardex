@@ -1,0 +1,16 @@
+<%= link "← All cards", to: Routes.deck_path(@conn, :index)%>
+
+<div class="container">
+  <div class="column">
+    <div class="card">
+      <div class="content">
+        <div class="front">
+          <%= raw @card.question %>
+        </div>
+        <div class="back">
+          <%= @card.answer %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
