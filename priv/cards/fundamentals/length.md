@@ -1,6 +1,6 @@
 %{
   tags: ~w(),
-  answer: "=> 5"
+  answer: "=> 3"
 }
 ---
 ```elixir

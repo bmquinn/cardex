@@ -31,8 +31,6 @@ select {
 /* Phoenix promo and logo */
 .phx-hero {
   text-align: center;
-  border-bottom: 1px solid #e3e3e3;
-  background: #eee;
   border-radius: 6px;
   padding: 3em 3em 1em;
   margin-bottom: 3rem;
@@ -55,8 +53,6 @@ select {
 /* Headers */
 header {
   width: 100%;
-  background: #fdfdfd;
-  border-bottom: 1px solid #eaeaea;
   margin-bottom: 2rem;
 }
 header section {

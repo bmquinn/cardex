@@ -1,6 +1,6 @@
 %{
   tags: ~w(),
-  answer: "=> hey"
+  answer: "=> \"hey\""
 }
 ---
 ```elixir
