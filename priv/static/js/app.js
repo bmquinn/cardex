@@ -91,9 +91,9 @@
   !*** ./css/app.scss ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jc3MvYXBwLnNjc3MuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jc3MvYXBwLnNjc3M/MjQyYyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./css/app.scss\n");
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nSassError: Invalid CSS after \\\"'\\\": expected 1 selector or at-rule, was \\\"'use strict';\\\"\\n        on line 1 of node_modules/base/index.js\\n        from line 2 of /Users/brendan/projects/prototypes/cardex/assets/css/app.scss\\n>> 'use strict';\\n\\n   ^\\n\\n    at /Users/brendan/projects/prototypes/cardex/assets/node_modules/webpack/lib/NormalModule.js:316:20\\n    at /Users/brendan/projects/prototypes/cardex/assets/node_modules/loader-runner/lib/LoaderRunner.js:367:11\\n    at /Users/brendan/projects/prototypes/cardex/assets/node_modules/loader-runner/lib/LoaderRunner.js:233:18\\n    at context.callback (/Users/brendan/projects/prototypes/cardex/assets/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\\n    at Object.callback (/Users/brendan/projects/prototypes/cardex/assets/node_modules/sass-loader/dist/index.js:73:7)\\n    at Object.done [as callback] (/Users/brendan/projects/prototypes/cardex/assets/node_modules/neo-async/async.js:8069:18)\\n    at options.error (/Users/brendan/projects/prototypes/cardex/assets/node_modules/node-sass/lib/index.js:294:32)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jc3MvYXBwLnNjc3MuanMiLCJzb3VyY2VzIjpbXSwibWFwcGluZ3MiOiIiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./css/app.scss\n");
 
 /***/ }),
 
