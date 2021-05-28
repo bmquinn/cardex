@@ -16,8 +16,8 @@ defmodule CardexWeb.Router do
   scope "/", CardexWeb do
     pipe_through :browser
 
-    get "/deck", DeckController, :index
-    get "/dekc/:id", DeckController, :show
+    get "/", DeckController, :index
+    get "/deck/:id", DeckController, :show
   end
 
   # Other scopes may use custom stacks.
