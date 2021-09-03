@@ -2,7 +2,7 @@
 
 <div class="cards">
   <%= for card <- @cards do %>
-    <div id="<%= card.id %>" class="card">
+    <div id={card.id} class="card">
       <div class="card-body">
         <div class="front">
           <%= raw card.question %>
