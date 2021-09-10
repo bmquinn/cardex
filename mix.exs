@@ -45,7 +45,8 @@ defmodule Cardex.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:nimble_publisher, "~> 0.1.1"},
       {:makeup_elixir, ">= 0.0.0"},
-      {:makeup_erlang, ">= 0.0.0"}
+      {:makeup_erlang, ">= 0.0.0"},
+      {:esbuild, "~> 0.2", runtime: Mix.env() == :dev}
     ]
   end
 
@@ -57,7 +58,8 @@ defmodule Cardex.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "cmd npm install --prefix assets"]
+      setup: ["deps.get", "cmd npm install --prefix assets"],
+      "assets.deploy": ["esbuild default --minify", "phx.digest"]
     ]
   end
 end
