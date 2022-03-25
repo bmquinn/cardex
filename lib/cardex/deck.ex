@@ -14,8 +14,8 @@ defmodule Cardex.Deck do
   @cards Enum.sort_by(@cards, & &1.id, :desc)
   @tags @cards |> Enum.flat_map(& &1.tags) |> Enum.uniq() |> Enum.sort()
 
-  def all_cards, do: @cards
-  def all_tags, do: @tags
+  def all_cards(), do: @cards
+  def all_tags(), do: @tags
 
   def get_card_by_id!(id) do
     Enum.find(all_cards(), &(&1.id == id)) ||
